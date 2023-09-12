@@ -1,116 +1,124 @@
-<!DOCTYPE html>
-<html>
+<div class="game">
+    <div class="house green">
+        <div class="box">
+            <div class="square square-one green"></div>
+            <div class="square square-two green"></div>
+            <div class="square square-three green"></div>
+            <div class="square square-four green"></div>
+        </div>
+    </div>
 
-<body>
-	<!-- Here we are using attributes like
-		cellspacing and cellpadding -->
+    <div class="house yellow" style="right: 0">
+        <div class="box">
+            <div class="square square-one yellow"></div>
+            <div class="square square-two yellow"></div>
+            <div class="square square-three yellow"></div>
+            <div class="square square-four yellow"></div>
+        </div>
+    </div>
 
-	<!-- The purpose of the cellpadding is
-		the space that a user want between
-		the border of cell and its contents-->
+    <div class="house red" style="bottom: 0">
+        <div class="box">
+            <div class="square square-one red"></div>
+            <div class="square square-two red"></div>
+            <div class="square square-three red"></div>
+            <div class="square square-four red"></div>
+        </div>
+    </div>
 
-	<!-- cellspacing is used to specify the
-		space between the cell and its contents -->
-	<h2 align="center" style="color: orange;">
-		January 2021
-	</h2>
-	<br />
-	
-	<table bgcolor="lightgrey" align="center"
-		cellspacing="21" cellpadding="21">
-		
-		<!-- The tr tag is used to enter
-			rows in the table -->
+    <div class="house blue" style="bottom: 0;right: 0">
+        <div class="box">
+            <div class="square square-one blue"></div>
+            <div class="square square-two blue"></div>
+            <div class="square square-three blue"></div>
+            <div class="square square-four blue"></div>
+        </div>
+    </div>
 
-		<!-- It is used to give the heading to the
-			table. We can give the heading to the
-			top and bottom of the table -->
+    <div class="home"></div>
+    <div class="cells" style="top: 40%;"></div>
+    <div class="cells g-start" style="top: 40%;left:6.66%;"></div>
+    <div class="cells" style="top: 40%;left:13.32%;"></div>
+    <div class="cells" style="top: 40%;left:19.98%;"></div>
+    <div class="cells" style="top: 40%;left:26.64%;"></div>
+    <div class="cells" style="top: 40%;left:33.3%;"></div>
 
-		<caption align="top">
-			<!-- Here we have used the attribute
-				that is style and we have colored
-				the sentence to make it better
-				depending on the web page-->
-		</caption>
+    <div class="cells" style="top: 0;left:40%;"></div>
+    <div class="cells" style="top: 6.66%;left:40%;"></div>
+    <div class="cells safe" style="top: 13.32%;left:40%;"></div>
+    <div class="cells" style="top: 19.98%;left:40%;"></div>
+    <div class="cells" style="top: 26.64%;left:40%;"></div>
+    <div class="cells" style="top: 33.3%;left:40%;"></div>
 
-		<!-- Here th stands for the heading of the
-			table that comes in the first row-->
+    <div class="cells" style="top: 0;left:46.66%;"></div>
+    <div class="cells yellow" style="top: 6.66%;left:46.66%;"></div>
+    <div class="cells yellow" style="top: 13.32%;left:46.66%;"></div>
+    <div class="cells yellow" style="top: 19.98%;left:46.66%;"></div>
+    <div class="cells yellow" style="top: 26.64%;left:46.66%;"></div>
+    <div class="cells yellow" style="top: 33.3%;left:46.66%;"></div>
 
-		<!-- The text in this table header tag will
-			appear as bold and is center aligned-->
+    <div class="cells" style="top: 0;left:53.32%;"></div>
+    <div class="cells y-start" style="top: 6.66%;left:53.32%;"></div>
+    <div class="cells" style="top: 13.32%;left:53.32%;"></div>
+    <div class="cells" style="top: 19.98%;left:53.32%;"></div>
+    <div class="cells" style="top: 26.64%;left:53.32%;"></div>
+    <div class="cells" style="top: 33.3%;left:53.32%;"></div>
 
-		<thead>
-			<tr>
-				<!-- Here we have applied inline style
-					to make it more attractive-->
-				<th>Sun</th>
-				<th>Mon</th>
-				<th>Tue</th>
-				<th>Wed</th>
-				<th>Thu</th>
-				<th>Fri</th>
-				<th>sat</th>
-			</tr>
-		</thead>
-		
-		<tbody>
-			<tr>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td>1</td>
-				<td>2</td>
-			</tr>
-			<tr></tr>
-			<tr>
-				<td>3</td>
-				<td>4</td>
-				<td>5</td>
-				<td>6</td>
-				<td>7</td>
-				<td>8</td>
-				<td>9</td>
-			</tr>
-			<tr>
-				<td>10</td>
-				<td>11</td>
-				<td>12</td>
-				<td>13</td>
-				<td>14</td>
-				<td>15</td>
-				<td>16</td>
-			</tr>
-			<tr>
-				<td>17</td>
-				<td>18</td>
-				<td>19</td>
-				<td>20</td>
-				<td>21</td>
-				<td>22</td>
-				<td>23</td>
-			</tr>
-			<tr>
-				<td>24</td>
-				<td>25</td>
-				<td>26</td>
-				<td>27</td>
-				<td>28</td>
-				<td>29</td>
-				<td>30</td>
-			</tr>
-			<tr>
-				<td>31</td>
-				<td>1</td>
-				<td>2</td>
-				<td>3</td>
-				<td>4</td>
-				<td>5</td>
-				<td>6</td>
-			</tr>
-		</tbody>
-	</table>
-</body>
+    <div class="cells" style="top: 40%; right: 33.3%"></div>
+    <div class="cells" style="top: 40%;right:26.64%;"></div>
+    <div class="cells" style="top: 40%;right:19.98%;"></div>
+    <div class="cells safe" style="top: 40%;right:13.32%;"></div>
+    <div class="cells" style="top: 40%;right:6.66%;"></div>
+    <div class="cells" style="top: 40%;right:0;"></div>
 
-</html>
+    <div class="cells blue" style="top: 46.66%; right: 33.3%"></div>
+    <div class="cells blue" style="top: 46.66%;right:26.64%;"></div>
+    <div class="cells blue" style="top: 46.66%;right:19.98%;"></div>
+    <div class="cells blue" style="top: 46.66%;right:13.32%;"></div>
+    <div class="cells blue" style="top: 46.66%;right:6.66%;"></div>
+    <div class="cells" style="top: 46.66%;right:0;"></div>
+
+    <div class="cells" style="top: 53.32%; right: 33.3%"></div>
+    <div class="cells" style="top: 53.32%;right:26.64%;"></div>
+    <div class="cells" style="top: 53.32%;right:19.98%;"></div>
+    <div class="cells" style="top: 53.32%;right:13.32%;"></div>
+    <div class="cells b-start" style="top: 53.32%;right:6.66%;"></div>
+    <div class="cells" style="top: 53.32%;right:0;"></div>
+
+    <div class="cells" style="bottom: 0;left:53.32%;"></div>
+    <div class="cells" style="bottom: 6.66%;left:53.32%;"></div>
+    <div class="cells safe" style="bottom: 13.32%;left:53.32%;"></div>
+    <div class="cells" style="bottom: 19.98%;left:53.32%;"></div>
+    <div class="cells" style="bottom: 26.64%;left:53.32%;"></div>
+    <div class="cells" style="bottom: 33.3%;left:53.32%;"></div>
+
+    <div class="cells" style="bottom: 0;left:46.66%;"></div>
+    <div class="cells red " style="bottom: 6.66%;left:46.66%;"></div>
+    <div class="cells red" style="bottom: 13.32%;left:46.66%;"></div>
+    <div class="cells red" style="bottom: 19.98%;left:46.66%;"></div>
+    <div class="cells red" style="bottom: 26.64%;left:46.66%;"></div>
+    <div class="cells red" style="bottom: 33.3%;left:46.66%;"></div>
+
+    <div class="cells" style="bottom: 0;left:40%;"></div>
+    <div class="cells r-start" style="bottom: 6.66%;left:40%;"></div>
+    <div class="cells" style="bottom: 13.32%;left:40%;"></div>
+    <div class="cells" style="bottom: 19.98%;left:40%;"></div>
+    <div class="cells" style="bottom: 26.64%;left:40%;"></div>
+    <div class="cells" style="bottom: 33.3%;left:40%;"></div>
+
+    <div class="cells" style="top: 53.32%; left: 33.3%"></div>
+    <div class="cells" style="top: 53.32%;left:26.64%;"></div>
+    <div class="cells" style="top: 53.32%;left:19.98%;"></div>
+    <div class="cells safe" style="top: 53.32%;left:13.32%;"></div>
+    <div class="cells" style="top: 53.32%;left:6.66%;"></div>
+    <div class="cells" style="top: 53.32%;left:0;"></div>
+
+    <div class="cells green" style="top: 46.66%;left: 33.3%"></div>
+    <div class="cells green" style="top: 46.66%;left:26.64%;"></div>
+    <div class="cells green" style="top: 46.66%;left:19.98%;"></div>
+    <div class="cells green" style="top: 46.66%;left:13.32%;"></div>
+    <div class="cells green" style="top: 46.66%;left:6.66%;"></div>
+    <div class="cells" style="top: 46.66%;left:0;"></div>
+
+
+</div>
